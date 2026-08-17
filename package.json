@@ -1,0 +1,32 @@
+{
+  "name": "helpdesk-ticket-management-system",
+  "version": "1.0.0",
+  "description": "A web-based technical support system that allows users to create, track, and manage support tickets. Staff members can handle assigned tickets, while administrators can manage users, tickets, categories, priorities, and roles.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vignesh250054/Helpdesk-Ticket-Management-System.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Vignesh250054/Helpdesk-Ticket-Management-System/issues"
+  },
+  "homepage": "https://github.com/Vignesh250054/Helpdesk-Ticket-Management-System#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
